@@ -17,8 +17,7 @@ const Footer = () => {
             <li className="ms-3  animation"><a className="" href=""><i
               className="bi bi-instagram"></i></a></li>
             <li className="ms-3  animation"><a className=""
-              href=""><i
-                className="bi bi-twitter"></i></a></li>
+              href=""><i className="bi bi-twitter"></i></a></li>
           </ul>
         </footer>
       </div>
@@ -26,3 +25,9 @@ const Footer = () => {
 }
 
 export default Footer
+
+
+
+
+
+
