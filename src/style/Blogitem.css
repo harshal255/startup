@@ -1,0 +1,10 @@
+#card-text {
+  height: 75px;
+  overflow: clip;
+}
+
+#storyimg{
+    height : 250px;
+    border-radius: 8px;
+   
+}
