@@ -10,7 +10,7 @@ const Startups = () => {
   return (
     <div>
 
-      <Header2></Header2>
+      {/* <Header2></Header2> */}
       <Searchbar></Searchbar>
       <BlogList></BlogList>
       <Footer></Footer>

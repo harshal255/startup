@@ -1,0 +1,32 @@
+#cardimg {
+    height: 200px;
+    width: 650px;
+    /* margin:auto; */
+    margin: 20px auto;
+}
+
+.text {
+    /* border: 2px solid greenyellow; */
+    margin-left: -12.5px;
+    width: 665px;
+
+
+}
+
+.flex {
+    display: flex;
+}
+
+.play {
+
+    top: 7%;
+    opacity: 0;
+    transition: 0.5s;
+    left: 42.5%;
+
+}
+
+ .play:hover{
+    opacity: 1;
+    cursor: pointer;
+}

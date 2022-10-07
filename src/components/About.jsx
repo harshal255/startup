@@ -1,8 +1,9 @@
 import React from 'react'
+import BigStory from './BigStory'
 
 const About = () => {
   return (
-    <div>About</div>
+   <div>This is a about page</div>
   )
 }
 
