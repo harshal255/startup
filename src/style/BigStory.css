@@ -19,14 +19,18 @@
 
 .play {
 
-    top: 7%;
+    top: 15%;
     opacity: 0;
     transition: 0.5s;
-    left: 42.5%;
+    left: 35.5%;
 
 }
 
  .play:hover{
     opacity: 1;
     cursor: pointer;
+}
+
+.maincard{
+    height: 400px;
 }

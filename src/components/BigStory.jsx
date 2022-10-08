@@ -39,7 +39,7 @@ const BigStory = () => {
         // </div>
 
         <div>
-            <div className='container border d-flex '>
+            <div className='container d-flex '>
                 <img src={require(`../img/logo.jpg`)} alt="" width="200px" className="d-inline-block align-text-top" />
 
                 <h1 className='mt-5'>StartUp Title</h1>
@@ -47,7 +47,7 @@ const BigStory = () => {
 
             <div className='container d-flex flex-row'>
                 {/* <h4>Startup Title</h4> */}
-                <div className='text container w-50 fs-3'>
+                <div className='text container w-75 fs-3 mt-4'>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus doloremque harum possimus nam, ea nobis iure aspernatur atque, ad necessitatibus commodi? Distinctio architecto possimus quasi cupiditate alias, ratione ipsum labore. Cum veniam a explicabo harum quibusdam dolores hic sequi reiciendis corrupti. Voluptates alias modi iusto architecto eos repellat facere porro.</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus doloremque harum possimus nam, ea nobis iure aspernatur atque, ad necessitatibus commodi? Distinctio architecto possimus quasi cupiditate alias, ratione ipsum labore. Cum veniam a explicabo harum quibusdam dolores hic sequi reiciendis corrupti. Voluptates alias modi iusto architecto eos repellat facere porro.</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus doloremque harum possimus nam, ea nobis iure aspernatur atque, ad necessitatibus commodi? Distinctio architecto possimus quasi cupiditate alias, ratione ipsum labore. Cum veniam a explicabo harum quibusdam dolores hic sequi reiciendis corrupti. Voluptates alias modi iusto architecto eos repellat facere porro.</p>
@@ -71,15 +71,15 @@ const BigStory = () => {
                         </div>
                     </div>
                 </div> */}
-                <div className="card w-50" >
-                    <img src={require("../img/Slides/bg1.jpg")} alt="" className="img-fluid rounded-start Thumbnail position-relative" />
+                <div className="card w-25 mt-5 maincard" >
+                    <img src={require("../img/thumbnail.jpg")} alt="" className="img-fluid rounded-start Thumbnail position-relative" />
                     <img src={require(`../img/play.png`)} alt="" width="100px" className="d-inline-block align-text-top position-absolute play " data-bs-toggle="modal" data-bs-target="#exampleModal" />
 
                     <div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div className="modal-dialog">
                             <div className="modal-content">
                                 <video width="750" height="500" controls >
-                                    <source src="/Videos/never.mp4" type="video/mp4" />
+                                    <source src="/Videos/storyvideo.mp4" type="video/mp4" />
                                 </video>
                             </div>
                         </div>
