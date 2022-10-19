@@ -66,7 +66,7 @@ const BigStory = () => {
                             <div className="card-body">
                                 <h5 className="card-title">Achievements</h5>
                                 <p className="card-text">Here , We can write Achievements of Startup</p>
-                                <p className="card-text"><small className="text-muted">Last updated 3 month ago</small></p>
+                                <p className=  "card-text"><small className="text-muted">Last updated 3 month ago</small></p>
                             </div>
                         </div>
                     </div>
